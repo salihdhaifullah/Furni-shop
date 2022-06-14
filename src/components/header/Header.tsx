@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import hand from "../../asset/images/image 63.png"
 import Card from "./Card";
+import Pepole from "./Pepole";
 
 const Header = () => {
   return (
@@ -94,6 +95,8 @@ const Header = () => {
           </svg>
 
           <Card />
+
+          <Pepole />
 
           <div className="bg-[#EDEDED] flex h-[501px] w-[410px] drop-shadow-xl rounded-md">
             <svg width="410" height="501" viewBox="0 0 410 501" fill="none" xmlns="http://www.w3.org/2000/svg">
