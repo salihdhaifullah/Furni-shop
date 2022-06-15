@@ -96,7 +96,7 @@ const Header = () => {
 
           <Card />
 
-          <Pepole />
+        <Pepole />
 
           <div className="bg-[#EDEDED] flex h-[501px] w-[410px] drop-shadow-xl rounded-md">
             <svg width="410" height="501" viewBox="0 0 410 501" fill="none" xmlns="http://www.w3.org/2000/svg">
