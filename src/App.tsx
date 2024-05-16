@@ -1,11 +1,27 @@
-import Header from "./components/header/Header";
+import AboutUs from "./components/AboutUs"
+import Companies from "./components/Companies"
+import Deals from "./components/Deals"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Products from "./components/Products"
+import Testimonials from "./components/Testimonials"
 
 function App() {
   return (
-    <div className="min-w-[100vw] min-h-[100vh] bg-white relative">
-      <Header />
-    </div>
-  );
+    <>
+    <Header />
+    <main>
+      <Hero />
+      <Companies />
+      <Deals />
+      <AboutUs />
+      <Products />
+      <Testimonials />
+    </main>
+    <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
