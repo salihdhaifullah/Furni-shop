@@ -4,7 +4,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      img: "/images/client1.png",
+      img: "./images/client1.png",
       text: "File storage made easy - including powerful features you won't find anywhere else. Whether you're.",
       name: "Larry Diamond",
       title: "Chief Executive Officer",

@@ -36,10 +36,10 @@ const AboutUs = () => {
 
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-2 gap-8">
-            <img src="/public/images/img4.png" className="mt-auto" />
-            <img src="/public/images/img1.png" />
-            <img src="/public/images/img2.png" />
-            <img src="/public/images/img3.png" />
+            <img src="./images/img4.png" className="mt-auto" />
+            <img src="./images/img1.png" />
+            <img src="./images/img2.png" />
+            <img src="./images/img3.png" />
           </div>
         </div>
 

@@ -7,42 +7,42 @@ const Products = () => {
       price: 97,
       discount: 0.1,
       name: "Stackable Chair",
-      img: "/images/product1.png",
+      img: "./images/product1.png",
     },
 
     {
       price: 95,
       discount: 0.31,
       name: "Vintage Chair",
-      img: "/images/product2.png",
+      img: "./images/product2.png",
     },
 
     {
       price: 45,
       discount: 0.22,
       name: "Lamp Tool",
-      img: "/images/product3.png",
+      img: "./images/product3.png",
     },
 
     {
       price: 55,
       discount: 0.18,
       name: "Stylish Chair",
-      img: "/images/product4.png",
+      img: "./images/product4.png",
     },
 
     {
       price: 55,
       discount: 0.36,
       name: "Hand Base Lamp",
-      img: "/images/product5.png",
+      img: "./images/product5.png",
     },
 
     {
       price: 95,
       discount: 0.31,
       name: "Vintage Chair",
-      img: "/images/product6.png",
+      img: "./images/product6.png",
     }
   ]
 
