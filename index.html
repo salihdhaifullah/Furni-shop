@@ -19,7 +19,7 @@
       let times = 1;
       setInterval(() => {
         if (times === 5) times = 0;
-        document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth / 2), behavior: 'smooth' });
+        document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth * 0.7), behavior: 'smooth' });
         times++
       }, 5000)
     })

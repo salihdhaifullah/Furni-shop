@@ -42,15 +42,15 @@ const Testimonials = () => {
 
         <div className="flex justify-center items-center flex-col gap-6">
 
-          <div className="flex justify-center items-center flex-col gap-8 pl-36 pt-6">
-            <h1 className="text-5xl text-center font-bold text-primary ">What our happy client say</h1>
-            <p className="text-center px-20 text-gray-600">File storage made easy - including powerful features you won't find anywhere else. Whether you're.</p>
+          <div className="flex justify-center items-center flex-col gap-8 md:pl-36 md:mt-0 mt-40 pt-6">
+            <h1 className="md:text-5xl text-3xl text-center font-bold text-primary ">What our happy client say</h1>
+            <p className="text-center md:px-20 px-4 text-gray-600">File storage made easy - including powerful features you won't find anywhere else. Whether you're.</p>
           </div>
 
-          <div id="scroll-container" className="relative w-[50vw] overflow-x-auto hide-scroll-bar">
-              <div className="flex flex-row py-10 w-[250vw]">
+          <div id="scroll-container" className="relative w-[70vw] overflow-x-auto hide-scroll-bar">
+              <div className="flex flex-row py-10 w-[350vw] gap-1">
                 {testimonials.map((testimonial, index) => (
-                  <div key={index} className="grid grid-cols-2 gap-8 w-[50vw]">
+                  <div key={index} className="grid sm:grid-cols-2 grid-cols-1 md:gap-8 gap-2 w-[70vw]">
 
                     <div className="flex flex-col justify-center items-center">
                       <img src={testimonial.img} alt={testimonial.name} />

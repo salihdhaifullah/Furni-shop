@@ -49,8 +49,8 @@ const Products = () => {
   return (
     <div id="products" className="px-16 flex flex-col">
 
-      <div className="flex flex-row items-center justify-between w-full py-8">
-        <h1 className="text-4xl font-bold text-primary">Products</h1>
+      <div className="flex sm:flex-row flex-col gap-8 items-center justify-between w-full py-8">
+        <h1 className="md:text-4xl text-3xl font-bold text-primary">Products</h1>
         <div className="flex flex-row items-center gap-4">
           <p className="text-lg text-gray-600">See All</p>
           <HiArrowLongRight className="text-3xl" />
