@@ -47,10 +47,10 @@ const Products = () => {
   ]
 
   return (
-    <div className="p-16 flex flex-col">
+    <div id="products" className="px-16 flex flex-col">
 
       <div className="flex flex-row items-center justify-between w-full py-8">
-        <h1 className="text-4xl">Products</h1>
+        <h1 className="text-4xl font-bold text-primary">Products</h1>
         <div className="flex flex-row items-center gap-4">
           <p className="text-lg text-gray-600">See All</p>
           <HiArrowLongRight className="text-3xl" />
@@ -69,14 +69,14 @@ const Products = () => {
       <div className="flex flex-row flex-wrap items-center justify-center gap-x-8 gap-y-40 py-16">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col justify-center items-center">
-            <div className="bg-neutral-100 p-16 gap-8 rounded-sm w-[25vw] h-[25vw] flex flex-col relative">
-              <h3 className="text-xl">{product.name}</h3>
+            <div className="bg-neutral-100 p-12 gap-8 rounded-sm w-[300px] h-[300px] flex flex-col relative">
+              <h3 className="text-2xl">{product.name}</h3>
               <div className="flex flex-row gap-8 items-center">
                 <p className="text-lg text-gray-900">${Math.floor(product.price * (1 - product.discount)).toFixed(2)}</p>
-                <p className="text-sm text-gray-600 line-through">${product.price.toFixed(2)}</p>
+                <p className="text-sm text-gray-400 line-through">${product.price.toFixed(2)}</p>
               </div>
 
-              <div className="absolute -top-4 right-4 rounded-full bg-zinc-400 p-2 text-center">
+              <div className="absolute -top-4 right-4 rounded-full bg-stone-400 p-2 text-center">
                 <AiOutlineShoppingCart className="text-xl text-white"/>
               </div>
             </div>

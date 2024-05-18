@@ -25,3 +25,10 @@
 .hide-scroll-bar::-webkit-scrollbar {
     display: none;
 }
+
+
+body {
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}

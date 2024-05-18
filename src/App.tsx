@@ -9,18 +9,18 @@ import Testimonials from "./components/Testimonials"
 
 function App() {
   return (
-    <>
-    <Header />
-    <main>
-      <Hero />
-      <Companies />
-      <Deals />
-      <AboutUs />
-      <Products />
-      <Testimonials />
-    </main>
-    <Footer />
-    </>
+    <div className="relative overflow-hidden">
+      <Header />
+      <main className="flex flex-col gap-20">
+        <Hero />
+        <Companies />
+        <Deals />
+        <AboutUs />
+        <Products />
+        <Testimonials />
+      </main>
+      <Footer />
+    </div>
   )
 }
 
