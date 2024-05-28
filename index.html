@@ -15,14 +15,60 @@
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      let times = 1;
-      setInterval(() => {
-        if (times === 5) times = 0;
+    let times = 0;
+
+    setTimeout(() => {
+      menuInit()
+      testimonialsInit()
+    }, 1000)
+
+
+    function menuInit() {
+      const hamburger_menu = document.getElementById("hamburger-menu")
+      const menu = hamburger_menu.children.item(3)
+      let isOpenMenu = false;
+
+      function Open() {
+        menu.classList.remove("-right-80")
+        menu.classList.add("right-0")
+        isOpenMenu = true
+      }
+
+      function Close() {
+        menu.classList.add("-right-80")
+        menu.classList.remove("right-0")
+        isOpenMenu = false
+      }
+
+      hamburger_menu.addEventListener("click", (e) => {
+        if (isOpenMenu) Close()
+        else Open()
+      })
+
+      document.addEventListener("click", () => Close(), { capture: true })
+    }
+
+    function testimonialsInit() {
+      const back = document.getElementById("testimonial-go-back")
+      const forward = document.getElementById("testimonial-go-forward")
+
+      function goBack() {
+        if (times===0) times = 4;
+        else times--;
         document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth * 0.7), behavior: 'smooth' });
-        times++
-      }, 5000)
-    })
+      }
+
+      function goForward() {
+        if (times===4) times = 0;
+        else times++;
+        document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth * 0.7), behavior: 'smooth' });
+      }
+
+
+      back.addEventListener("click", (e) => goBack())
+      forward.addEventListener("click", (e) => goForward())
+    }
+
   </script>
 </body>
 

@@ -47,9 +47,9 @@ const Products = () => {
   ]
 
   return (
-    <div id="products" className="px-16 flex flex-col">
+    <div id="products" className="flex flex-col pt-14">
 
-      <div className="flex sm:flex-row flex-col gap-8 items-center justify-between w-full py-8">
+      <div className="flex sm:flex-row flex-col gap-8 items-center justify-between w-full pb-8">
         <h1 className="md:text-4xl text-3xl font-bold text-primary">Products</h1>
         <div className="flex flex-row items-center gap-4">
           <p className="text-lg text-gray-600">See All</p>
@@ -66,7 +66,7 @@ const Products = () => {
       </div>
 
 
-      <div className="flex flex-row flex-wrap items-center justify-center gap-x-8 gap-y-40 py-16">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-x-8 gap-y-20 py-16">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col justify-center items-center">
             <div className="bg-neutral-100 p-12 gap-8 rounded-sm w-[300px] h-[300px] flex flex-col relative">

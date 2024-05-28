@@ -8,9 +8,9 @@ const Companies = () => {
     ];
 
     return (
-        <div className="bg-gray-100 md:py-12 py-6 overflow-hidden text-center w-full">
-            <h2 className="mb:text-xl mb:mb-6 text-lg mb-3 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
-            <div className="flex justify-end items-center w-[200vw] md:gap-4 gap-2 overflow-x-scroll hide-scroll-bar animate-marquee">
+        <div className="bg-gray-100 md:py-12 py-6 text-center w-full">
+            <h2 className="md:text-xl md:mb-6 text-lg mb-3 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
+            <div className="flex justify-evenly items-center">
                 {companiesLogos.map((logo, index) => (
                     <div key={index} className="flex items-center justify-center">
                         <img src={logo} className="md:h-6 h-3 mr-2" />

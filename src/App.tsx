@@ -11,13 +11,17 @@ function App() {
   return (
     <div className="relative overflow-hidden">
       <Header />
-      <main className="flex flex-col gap-20">
-        <Hero />
-        <Companies />
-        <Deals />
-        <AboutUs />
-        <Products />
-        <Testimonials />
+      <main className="flex flex-col gap-40">
+        <div className="flex flex-col mb-14">
+          <Hero />
+          <Companies />
+        </div>
+        <div className="flex flex-col gap-40 md:px-8 px-4 mb-40">
+          <Deals />
+          <AboutUs />
+          <Products />
+          <Testimonials />
+        </div>
       </main>
       <Footer />
     </div>

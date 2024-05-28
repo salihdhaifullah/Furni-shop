@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 
 const Footer = () => {
   return (
-    <div id="contact" className="bg-primary sm:p-20 p-10 mt-20">
+    <div id="contact" className="bg-primary sm:px-20 px-10 py-14">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
         <div className="flex items-center justify-center">
           <h1 className="text-white text-3xl">Start your business today for $0+ state fees.</h1>
@@ -32,7 +32,6 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-2 gap-8">
         <div className="flex flex-col gap-2">
           <h4 className="text-xl">Entity types</h4>
-          <p className="text-sm">Knowledge base</p>
           <p className="text-sm">Security</p>
           <p className="text-sm">Privacy Policy</p>
           <p className="text-sm">Partners</p>
@@ -44,8 +43,6 @@ const Footer = () => {
           <h4 className="text-xl">Services</h4>
           <p className="text-sm">Contact Us</p>
           <p className="text-sm">Press</p>
-          <p className="text-sm">Payrool</p>
-          <p className="text-sm">Library</p>
           <p className="text-sm">Blog</p>
           <p className="text-sm">Help Center</p>
         </div>
@@ -53,18 +50,13 @@ const Footer = () => {
         <div className="flex flex-col gap-2">
           <h4 className="text-xl">Resources</h4>
           <p className="text-sm">Pricing</p>
-          <p className="text-sm">FAQs</p>
-          <p className="text-sm">Contact Support</p>
-          <p className="text-sm">Privacy Policy</p>
           <p className="text-sm">Terms</p>
         </div>
 
         <div className="flex flex-col gap-2">
         <h4 className="text-xl">Support</h4>
-          <p className="text-sm">Contact</p>
           <p className="text-sm">Affiliates</p>
           <p className="text-sm">Sitemap</p>
-          <p className="text-sm">Pricing</p>
           <p className="text-sm">Cancelation Policy</p>
         </div>
         </div>
