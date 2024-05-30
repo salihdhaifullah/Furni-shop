@@ -12,11 +12,6 @@
     }
 }
 
-.animate-marquee {
-    animation: marquee 10s linear infinite;
-}
-
-
 .hide-scroll-bar {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -28,7 +23,11 @@
 
 
 body {
-    font-family: "Noto Serif JP", serif;
+    font-family: 'Product Sans', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+.title-font {
+    font-family: "Noto Serif JP", serif;
 }

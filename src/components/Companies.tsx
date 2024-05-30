@@ -8,8 +8,8 @@ const Companies = () => {
     ];
 
     return (
-        <div className="bg-gray-100 md:py-12 py-6 text-center w-full">
-            <h2 className="md:text-xl md:mb-6 text-lg mb-3 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
+        <div className="bg-gray-100 py-8 text-center w-full mt-20">
+            <h2 className="text-lg mb-8 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
             <div className="flex justify-evenly items-center">
                 {companiesLogos.map((logo, index) => (
                     <div key={index} className="flex items-center justify-center">

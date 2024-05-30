@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-        <header className="flex flex-row items-center justify-between py-2 px-8 border h-14 fixed z-50 w-full bg-white">
-            <h1 className="sm:text-3xl text-xl text-primary font-bold">Furni.shop</h1>
+        <header className="flex flex-row items-center justify-between py-2 px-8 sm:px-12 md:px-20 lg:px-28 border h-14 fixed z-50 w-full bg-white">
+            <h1 className="sm:text-3xl text-2xl title-font font-bold text-primary">Furni.shop</h1>
 
             <div className="flex-row gap-4 sm:text-base text-sm sm:flex hidden">
                 <a href="/#" className="hover:text-blue-500 hover:underline">Home</a>
@@ -33,4 +33,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;

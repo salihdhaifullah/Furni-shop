@@ -9,14 +9,14 @@ import Testimonials from "./components/Testimonials"
 
 function App() {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden bg-white">
       <Header />
       <main className="flex flex-col gap-40">
         <div className="flex flex-col mb-14">
           <Hero />
           <Companies />
         </div>
-        <div className="flex flex-col gap-40 md:px-8 px-4 mb-40">
+        <div className="flex flex-col gap-40 xl:px-28 lg:px-12 mb-40">
           <Deals />
           <AboutUs />
           <Products />

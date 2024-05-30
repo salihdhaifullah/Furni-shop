@@ -12,7 +12,7 @@ const Hero = () => {
                 </div>
 
                 <div className="2xl:w-[25vw] lg:w-[32vw] md:w-[45vw] 2xl:h-[25vw] lg:h-[32vw] md:h-[45vw] absolute lg:left-40 left-10 bg-white bg-opacity-30 backdrop-blur-lg gap-4 border border-white border-opacity-20 rounded-sm flex flex-col justify-center items-center">
-                    <h2 className="text-5xl font-bold text-primary">We Help You Make Modern Interior</h2>
+                    <h2 className="title-font text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">We Help You Make Modern Interior</h2>
                     <p className="text-base text-gray-600">We will help you to make an elegant and luxurious interior designed by professional interior designer.</p>
                 </div>
             </div>
@@ -21,7 +21,7 @@ const Hero = () => {
                 <img src="./images/hero.png" />
 
                 <div className="w-[50vw] h-[50vw] md:hidden absolute inset-0 p-2 text-center m-auto bg-white bg-opacity-30 backdrop-blur-lg gap-2 border border-white border-opacity-20 rounded-sm flex flex-col justify-center items-center">
-                    <h2 className="text-2xl font-bold text-primary">We Help You Make Modern Interior</h2>
+                    <h2 className="title-font text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">We Help You Make Modern Interior</h2>
                     <p className="text-sm text-gray-600">We will help you to make an elegant and luxurious interior designed by professional interior designer.</p>
                 </div>
             </div>

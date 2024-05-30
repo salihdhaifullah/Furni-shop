@@ -49,8 +49,8 @@ const Products = () => {
   return (
     <div id="products" className="flex flex-col pt-14">
 
-      <div className="flex sm:flex-row flex-col gap-8 items-center justify-between w-full pb-8">
-        <h1 className="md:text-4xl text-3xl font-bold text-primary">Products</h1>
+      <div className="flex sm:flex-row flex-col gap-8 items-center lg:justify-between justify-evenly w-full mb-16">
+        <h1 className="title-font text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">Products</h1>
         <div className="flex flex-row items-center gap-4">
           <p className="text-lg text-gray-600">See All</p>
           <HiArrowLongRight className="text-3xl" />
@@ -66,10 +66,10 @@ const Products = () => {
       </div>
 
 
-      <div className="flex flex-row flex-wrap items-center justify-center gap-x-8 gap-y-20 py-16">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-x-16 gap-y-20 py-16">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col justify-center items-center">
-            <div className="bg-neutral-100 p-12 gap-8 rounded-sm w-[300px] h-[300px] flex flex-col relative">
+            <div className="bg-neutral-100 p-12 gap-8 rounded-sm w-[20vw] h-[20vw] min-w-sm min-w-80 min-h-80 flex flex-col relative">
               <h3 className="text-2xl">{product.name}</h3>
               <div className="flex flex-row gap-8 items-center">
                 <p className="text-lg text-gray-900">${Math.floor(product.price * (1 - product.discount)).toFixed(2)}</p>
