@@ -48,20 +48,35 @@
       document.addEventListener("click", () => Close(), { capture: true })
     }
 
+
+
     function testimonialsInit() {
       const back = document.getElementById("testimonial-go-back")
       const forward = document.getElementById("testimonial-go-forward")
+      const container = document.getElementById("scroll-container")
+
+      function getMaxTimes() {
+        if (container.offsetWidth === 316) {
+          return 4;
+        } else if (container.offsetWidth === 624) {
+          return 3;
+        } else {
+          return 2;
+        }
+      }
+
 
       function goBack() {
-        if (times===0) times = 4;
+        if (times === 0) times = getMaxTimes();
         else times--;
-        document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth * 0.7), behavior: 'smooth' });
+
+        container.scrollTo({ left: times * 308, behavior: 'smooth' });
       }
 
       function goForward() {
-        if (times===4) times = 0;
+        if (times === getMaxTimes()) times = 0;
         else times++;
-        document.getElementById("scroll-container").scrollTo({ left: times * (window.innerWidth * 0.7), behavior: 'smooth' });
+        container.scrollTo({ left: times * 308, behavior: 'smooth' });
       }
 
 

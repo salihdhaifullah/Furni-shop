@@ -16,7 +16,7 @@ function App() {
           <Hero />
           <Companies />
         </div>
-        <div className="flex flex-col gap-40 xl:px-28 lg:px-12 mb-40">
+        <div className="flex flex-col gap-40 px-8 sm:px-12 md:px-20 lg:px-28 mb-40">
           <Deals />
           <AboutUs />
           <Products />

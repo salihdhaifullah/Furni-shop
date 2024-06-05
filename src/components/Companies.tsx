@@ -8,12 +8,12 @@ const Companies = () => {
     ];
 
     return (
-        <div className="bg-gray-100 py-8 text-center w-full mt-20">
-            <h2 className="text-lg mb-8 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
-            <div className="flex justify-evenly items-center">
+        <div className="bg-gray-100 py-8 text-center w-full mt-20 px-8 sm:px-12 md:px-20 lg:px-28">
+            <h2 className="lg:text-lg sm:text-base text-sm mb-8 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
+            <div className="flex justify-between items-center">
                 {companiesLogos.map((logo, index) => (
                     <div key={index} className="flex items-center justify-center">
-                        <img src={logo} className="md:h-6 h-3 mr-2" />
+                        <img src={logo} className="lg:h-6 md:h-4 sm:h-3 h-[10px]" />
                     </div>
                 ))}
             </div>
