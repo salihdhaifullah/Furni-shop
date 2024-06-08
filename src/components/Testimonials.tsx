@@ -45,7 +45,10 @@ const Testimonials = () => {
         </div>
 
         <div className="relative">
-          <IoIosArrowBack id="testimonial-go-back" className="absolute sm:-left-16 -left-0 top-[20%] bottom-[20%] sm:top-1/2 sm:bottom-1/2 z-20 text-4xl hover:text-white hover:bg-primary shadow-md bg-white text-primary rounded-full cursor-pointer" />
+          {/* 36*36 */}
+          <div id="testimonial-go-back" className="absolute sm:-left-16 -left-0 top-[20%] bottom-[20%] sm:top-1/2 sm:bottom-1/2 z-20 hover:bg-primary shadow-md bg-white rounded-full cursor-pointer w-9 h-9 text-2xl hover:text-white text-primary flex items-center justify-center">
+            <IoIosArrowBack />
+          </div>
 
           <div id="scroll-container" className="relative xl:w-[932px] md:w-[624px] w-[316px] overflow-x-auto px-2 hide-scroll-bar">
             <div id="total-container" className="flex flex-row py-10 relative w-[1548px] gap-2">
@@ -69,7 +72,9 @@ const Testimonials = () => {
 
           </div>
 
-          <IoIosArrowForward id="testimonial-go-forward" className="absolute sm:-right-16 -right-0 top-[20%] bottom-[20%] sm:top-1/2 sm:bottom-1/2 z-20 text-4xl hover:text-white hover:bg-primary shadow-md bg-white text-primary rounded-full cursor-pointer" />
+          <div id="testimonial-go-forward" className="absolute sm:-right-16 -right-0 top-[20%] bottom-[20%] sm:top-1/2 sm:bottom-1/2 z-20 hover:bg-primary shadow-md bg-white rounded-full cursor-pointer w-9 h-9 text-2xl hover:text-white text-primary flex items-center justify-center">
+            <IoIosArrowForward />
+          </div>
 
         </div>
 
@@ -78,4 +83,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Testimonials;

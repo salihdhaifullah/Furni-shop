@@ -19,19 +19,19 @@ const Deals = () => {
 
       <div className="flex flex-col gap-4 w-60 items-center sm:items-start justify-end h-full">
         <FaRegStar className="text-2xl text-primary" />
-        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold">1.5% cashback</h3>
+        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold title-font text-primary">1.5% cashback</h3>
         <p className="text-sm text-gray-600 sm:text-start text-center">Shop smarter and save on everyday purchases from your favorite online retailers</p>
       </div>
 
       <div className="flex flex-col gap-4 w-60 items-center sm:items-start justify-end h-full">
         <FaRegCalendar className="text-2xl text-primary" />
-        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold">30-day terms</h3>
+        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold title-font text-primary">30-day terms</h3>
         <p className="text-sm text-gray-600 sm:text-start text-center">Skip the upfront cost and enjoy your purchase now! Don't worry about immediate payment</p>
       </div>
 
       <div className="flex flex-col gap-4 w-60 items-center sm:items-start justify-end h-full">
         <BsPiggyBank className="text-2xl text-primary" />
-        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold">Save money</h3>
+        <h3 className="text-xl flex-col flex text-center justify-center items-start font-bold title-font text-primary">Save money</h3>
         <p className="text-sm text-gray-600 sm:text-start text-center">Make your money go further! Find everyday deals and discounts with our program</p>
       </div>
 

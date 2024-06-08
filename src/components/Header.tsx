@@ -4,10 +4,10 @@ const Header = () => {
             <h1 className="sm:text-3xl text-2xl title-font font-bold text-primary">Furni.shop</h1>
 
             <div className="flex-row gap-4 sm:text-base text-sm sm:flex hidden">
-                <a href="/#" className="hover:text-blue-500 hover:underline">Home</a>
-                <a href="/#about" className="hover:text-blue-500 hover:underline">About</a>
-                <a href="/#products" className="hover:text-blue-500 hover:underline">Products</a>
-                <a href="/#contact" className="hover:text-blue-500 hover:underline">Contact</a>
+                <a href="/#" className="text-gray-800 hover:text-gray-950 after:bg-primary after:h-px hover:after:w-full after:w-0 transition-all after:transition-all after:block">Home</a>
+                <a href="/#about" className="text-gray-800 hover:text-gray-950 after:bg-primary after:h-px hover:after:w-full after:w-0 transition-all after:transition-all after:block">About</a>
+                <a href="/#products" className="text-gray-800 hover:text-gray-950 after:bg-primary after:h-px hover:after:w-full after:w-0 transition-all after:transition-all after:block">Products</a>
+                <a href="/#contact" className="text-gray-800 hover:text-gray-950 after:bg-primary after:h-px hover:after:w-full after:w-0 transition-all after:transition-all after:block">Contact</a>
             </div>
 
 

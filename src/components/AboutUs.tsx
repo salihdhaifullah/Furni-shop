@@ -12,29 +12,29 @@ const AboutUs = () => {
 
           <div className="flex flex-row lg:justify-between justify-center w-full flex-wrap sm:flex-nowrap gap-10">
             <div className="flex justify-center flex-col text-center sm:text-start max-w-60 sm:gap-4 gap-2">
-              <span className="sm:text-4xl text-2xl text-primary font-extrabold">1.</span>
-              <h4 className="sm:text-2xl text-lg text-primary font-bold">Who We Are</h4>
+              <span className="sm:text-4xl text-2xl text-primary font-extrabold title-font">1.</span>
+              <h4 className="sm:text-2xl text-lg text-primary font-bold title-font">Who We Are</h4>
               <p className="text-sm text-gray-600">You get a 2-week free trial to kick the Smarty tries. We want you to.</p>
             </div>
 
             <div className="flex justify-center flex-col text-center sm:text-start max-w-60 sm:gap-4 gap-2">
-              <span className="sm:text-4xl text-2xl text-primary font-extrabold">2.</span>
-              <h4 className="sm:text-2xl text-lg text-primary font-bold">What Do We Do</h4>
+              <span className="sm:text-4xl text-2xl text-primary font-extrabold title-font">2.</span>
+              <h4 className="sm:text-2xl text-lg text-primary font-bold title-font">What Do We Do</h4>
               <p className="text-sm text-gray-600">We give you a free course that guides you through the process.</p>
             </div>
           </div>
 
           <div className="flex flex-row lg:justify-between justify-center w-full flex-wrap sm:flex-nowrap gap-10">
             <div className="flex justify-center flex-col text-center sm:text-start max-w-60 sm:gap-4 gap-2">
-              <span className="sm:text-4xl text-2xl text-primary font-extrabold">3.</span>
-              <h4 className="sm:text-2xl text-lg text-primary font-bold">How Do We Help</h4>
+              <span className="sm:text-4xl text-2xl text-primary font-extrabold title-font">3.</span>
+              <h4 className="sm:text-2xl text-lg text-primary font-bold title-font">How Do We Help</h4>
               <p className="text-sm text-gray-600">Use our multimedia lecturers, videos, and coaching sessions.</p>
             </div>
 
 
             <div className="flex justify-center flex-col text-center sm:text-start max-w-60 sm:gap-4 gap-2">
-              <span className="sm:text-4xl text-2xl text-primary font-extrabold">4.</span>
-              <h4 className="sm:text-2xl text-lg text-primary font-bold">Create success story</h4>
+              <span className="sm:text-4xl text-2xl text-primary font-extrabold title-font">4.</span>
+              <h4 className="sm:text-2xl text-lg text-primary font-bold title-font">Create success story</h4>
               <p className="text-sm text-gray-600">With access to online learning resources anyone can transform.</p>
             </div>
           </div>
