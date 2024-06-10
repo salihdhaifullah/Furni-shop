@@ -8,7 +8,7 @@ const Companies = () => {
     ];
 
     return (
-        <div className="bg-gray-100 py-8 text-center w-full mt-20 px-8 sm:px-12 md:px-20 lg:px-28">
+        <div className="bg-gray-100 py-8 text-center w-full px-8 sm:px-12 md:px-20 lg:px-28">
             <h2 className="lg:text-lg sm:text-base text-sm mb-8 font-bold">TRUSTED BY OVER 1K+ COMPANIES</h2>
             <div className="flex justify-between items-center">
                 {companiesLogos.map((logo, index) => (

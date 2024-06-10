@@ -3,7 +3,7 @@ import { FaRegCalendar, FaRegStar } from "react-icons/fa";
 
 const Deals = () => {
   return (
-    <div className="gap-10 sm:justify-between w-full flex sm:flex-row flex-col flex-wrap sm:items-end items-center justify-center">
+    <div className="gap-10 sm:justify-between w-full flex sm:flex-row flex-col flex-wrap sm:items-end items-center justify-center pt-14">
 
       <div className="flex flex-col gap-4 sm:mb-0 mb-2 w-60 items-center sm:items-start">
         <div className="flex-col flex justify-center title-font text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">

@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 
 const Footer = () => {
   return (
-    <div id="contact" className="bg-primary px-8 sm:px-12 md:px-20 lg:px-28 py-14">
+    <div id="contact" className="bg-primary px-8 sm:px-12 md:px-20 lg:px-28 py-14 mt-12">
       <div className="grid md:grid-cols-2 grid-cols-1 justify-between gap-4">
         <div className="flex items-center justify-start">
           <h1 className="text-white text-3xl">Start your business today for $0+ state fees.</h1>

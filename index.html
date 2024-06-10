@@ -2,89 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Furni.shop</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furni.shop</title>
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-  <script>
-    let times = 0;
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+        let times = 0;
 
-    setTimeout(() => {
-      menuInit()
-      testimonialsInit()
-    }, 1000)
-
-
-    function menuInit() {
-      const hamburger_menu = document.getElementById("hamburger-menu")
-      const menu = hamburger_menu.children.item(3)
-      let isOpenMenu = false;
-
-      function Open() {
-        menu.classList.remove("-right-80")
-        menu.classList.add("right-0")
-        isOpenMenu = true
-      }
-
-      function Close() {
-        menu.classList.add("-right-80")
-        menu.classList.remove("right-0")
-        isOpenMenu = false
-      }
-
-      hamburger_menu.addEventListener("click", (e) => {
-        if (isOpenMenu) Close()
-        else Open()
-      })
-
-      document.addEventListener("click", () => Close(), { capture: true })
-    }
+        setTimeout(() => {
+            menuInit()
+            testimonialsInit()
+        }, 1000)
 
 
+        function menuInit() {
+            const hamburger_menu = document.getElementById("hamburger-menu")
+            const menu = hamburger_menu.children.item(3)
+            let isOpenMenu = false;
 
-    function testimonialsInit() {
-      const back = document.getElementById("testimonial-go-back")
-      const forward = document.getElementById("testimonial-go-forward")
-      const container = document.getElementById("scroll-container")
+            function Open() {
+                menu.classList.remove("-right-80")
+                menu.classList.add("right-0")
+                isOpenMenu = true
+            }
 
-      function getMaxTimes() {
-        if (container.offsetWidth === 316) {
-          return 4;
-        } else if (container.offsetWidth === 624) {
-          return 3;
-        } else {
-          return 2;
+            function Close() {
+                menu.classList.add("-right-80")
+                menu.classList.remove("right-0")
+                isOpenMenu = false
+            }
+
+            hamburger_menu.addEventListener("click", (e) => {
+                if (isOpenMenu) Close()
+                else Open()
+            })
+
+            document.addEventListener("click", () => Close(), {capture: true})
         }
-      }
 
 
-      function goBack() {
-        if (times === 0) times = getMaxTimes();
-        else times--;
 
-        container.scrollTo({ left: times * 308, behavior: 'smooth' });
-      }
+        function testimonialsInit() {
+            const back = document.getElementById("testimonial-go-back")
+            const forward = document.getElementById("testimonial-go-forward")
+            const container = document.getElementById("scroll-container")
 
-      function goForward() {
-        if (times === getMaxTimes()) times = 0;
-        else times++;
-        container.scrollTo({ left: times * 308, behavior: 'smooth' });
-      }
+            function getMaxTimes() {
+                if (container.offsetWidth === 324) {
+                    return 4;
+                } else if (container.offsetWidth === 648) {
+                    return 3;
+                } else {
+                    return 2;
+                }
+            }
 
 
-      back.addEventListener("click", (e) => goBack())
-      forward.addEventListener("click", (e) => goForward())
-    }
+            function goBack() {
+                if (times === 0) times = getMaxTimes();
+                else times--;
 
-  </script>
+                container.scrollTo({left: times * 324, behavior: 'smooth'});
+            }
+
+            function goForward() {
+                if (times === getMaxTimes()) times = 0;
+                else times++;
+                container.scrollTo({left: times * 324, behavior: 'smooth'});
+            }
+
+
+            back.addEventListener("click", (e) => goBack())
+            forward.addEventListener("click", (e) => goForward())
+        }
+
+    </script>
 </body>
 
 </html>

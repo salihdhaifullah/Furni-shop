@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="relative overflow-hidden bg-white">
       <Header />
-      <main className="flex flex-col gap-40">
-        <div className="flex flex-col mb-14">
+      <main className="flex flex-col lg:gap-32 md:gap-28 gap-20 lg:mb-28 md:mb-20 sm:mb-12">
+        <div className="flex flex-col lg:gap-24 md:gap-20 sm:gap-12 gap-6">
           <Hero />
           <Companies />
         </div>
-        <div className="flex flex-col gap-40 px-8 sm:px-12 md:px-20 lg:px-28 mb-40">
+        <div className="flex flex-col lg:gap-32 md:gap-28 gap-20 px-8 sm:px-12 md:px-20 lg:px-28">
           <Deals />
           <AboutUs />
           <Products />
