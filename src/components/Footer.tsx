@@ -21,18 +21,18 @@ const Footer = () => {
           <h3 className="text-2xl title-font font-bold">Furni.shop</h3>
           <p className="text-sm max-w-xs">Optix seamlessly connects your members with the community, resources.</p>
           <div className="flex flex-row gap-4 text-xl lg:py-8 py-4">
-            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md shadow-gray-200 rounded-full hover:bg-white transition-all cursor-pointer text-center">
+            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md rounded-full hover:bg-white transition-all cursor-pointer text-center">
               <FaFacebookF />
             </div>
 
-            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md shadow-gray-200 rounded-full hover:bg-white transition-all cursor-pointer text-center">
+            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md rounded-full hover:bg-white transition-all cursor-pointer text-center">
               <FaTwitter />
             </div>
 
-            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md shadow-gray-200 rounded-full hover:bg-white transition-all cursor-pointer text-center">
+            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md rounded-full hover:bg-white transition-all cursor-pointer text-center">
               <FaLinkedinIn />
             </div>
-            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md shadow-gray-200 rounded-full hover:bg-white transition-all cursor-pointer text-center">
+            <div className="hover:text-primary p-1 hover:p-2 h-fit w-fit shadow-md rounded-full hover:bg-white transition-all cursor-pointer text-center">
               <FaInstagram />
             </div>
           </div>

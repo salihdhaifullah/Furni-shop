@@ -7,7 +7,7 @@ const Deals = () => {
 
       <div className="flex flex-col gap-4 sm:mb-0 mb-2 w-60 items-center sm:items-start">
         <div className="flex-col flex justify-center title-font text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">
-          <div className="flex-row flex gap-1 items-center">
+          <div className="flex-row flex gap-1 items-center sm:justify-start justify-center">
             <span>Hot</span>
             <BsFire className="text-orange-600 rounded-md p-1 bg-orange-50 text-4xl" />
           </div>
