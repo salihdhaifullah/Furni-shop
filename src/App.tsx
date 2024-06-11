@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="relative overflow-hidden bg-white">
       <Header />
-      <main className="flex flex-col lg:gap-32 md:gap-28 gap-20 lg:mb-28 md:mb-20 sm:mb-12">
-        <div className="flex flex-col lg:gap-24 md:gap-20 sm:gap-12 gap-6">
+      <main className="flex flex-col lg:gap-16 md:gap-8 gap-4 lg:mb-28 md:mb-20 sm:mb-12">
+        <div className="flex flex-col">
           <Hero />
           <Companies />
         </div>
